@@ -49,6 +49,15 @@
     h2 {
       font-size: 2rem;
     }
+    a.project-link {
+      color: $secondary;
+      &:focus,
+      &:hover,
+      &:active {
+        color: $secondary;
+        opacity: 0.9;
+      }
+    }
   }
   @media(min-width: 768px) {
     .portfolio-modal-dialog {
